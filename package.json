@@ -4,8 +4,8 @@
   "main": "server.js",
   "scripts": {
     "test": "node server.js",
-    "start": "node server.js",
-    "run" : "node server.js"
+    "start": "PLAYWRIGHT_BROWSERS_PATH=0 node server.js",
+    "postinstall": "npx playwright install"
   },
   "keywords": [],
   "author": "vecchiotom",
