@@ -1,0 +1,18 @@
+{
+  "name": "gis-playwright",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js",
+    "run" : "node server.js"
+  },
+  "keywords": [],
+  "author": "vecchiotom",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0",
+    "playwright": "^1.53.1"
+  }
+}
